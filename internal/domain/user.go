@@ -2,7 +2,6 @@ package domain
 
 import "time"
 
-// Role name constants — dipakai untuk RBAC middleware.
 const (
 	RoleAdmin = "admin"
 	RoleSPV   = "spv"

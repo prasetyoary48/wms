@@ -18,9 +18,9 @@ type Stock struct {
 func (Stock) TableName() string { return "stocks" }
 
 const (
-	MovementTypeIn       = "in"       // barang masuk dari supplier
-	MovementTypeOut      = "out"      // barang keluar / terjual
-	MovementTypeTransfer = "transfer" // pindah antar lokasi/gudang
+	MovementTypeIn       = "in"
+	MovementTypeOut      = "out"
+	MovementTypeTransfer = "transfer"
 )
 
 const (

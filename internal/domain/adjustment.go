@@ -3,9 +3,8 @@ package domain
 import "time"
 
 const (
-	AdjustmentTypeStockFix = "stock_fix" // koreksi jumlah stok (misal hasil opname)
-	AdjustmentTypeTransfer = "transfer"  // pengajuan pemindahan barang
-
+	AdjustmentTypeStockFix = "stock_fix"
+	AdjustmentTypeTransfer = "transfer"
 	AdjustmentStatusPending  = "pending"
 	AdjustmentStatusApproved = "approved"
 	AdjustmentStatusRejected = "rejected"

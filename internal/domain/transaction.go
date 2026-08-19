@@ -15,8 +15,8 @@ type Supplier struct {
 func (Supplier) TableName() string { return "suppliers" }
 
 const (
-	TransactionTypeIn  = "in"  // penerimaan barang dari supplier
-	TransactionTypeOut = "out" // penjualan / pengeluaran barang
+	TransactionTypeIn  = "in"
+	TransactionTypeOut = "out"
 )
 
 // Transaction adalah dokumen header untuk penerimaan barang dari supplier

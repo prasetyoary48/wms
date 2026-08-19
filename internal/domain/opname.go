@@ -8,7 +8,6 @@ const (
 	OpnameStatusApproved = "approved"
 )
 
-// StockOpname adalah sesi audit stok fisik di satu gudang.
 type StockOpname struct {
 	ID          uint      `gorm:"primaryKey" json:"id"`
 	WarehouseID uint      `gorm:"not null" json:"warehouse_id"`
