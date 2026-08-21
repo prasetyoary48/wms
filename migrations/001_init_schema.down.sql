@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS stock_opname_details;
+DROP TABLE IF EXISTS stock_opname;
+DROP TABLE IF EXISTS adjustment_requests;
+DROP TABLE IF EXISTS stock_movements;
+DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS suppliers;
+DROP TABLE IF EXISTS stocks;
+DROP TABLE IF EXISTS locations;
+DROP TABLE IF EXISTS warehouses;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS categories;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS roles;
